@@ -1,0 +1,11 @@
+{
+  "name": "randomizely",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Neha Himesh (neha.himesh@spike.sh)",
+  "license": "ISC",
+  "description": ""
+}
