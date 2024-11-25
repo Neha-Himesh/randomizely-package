@@ -26,9 +26,9 @@ function generateCustomString(length, characters){
     let result = '';
     for (let i = 0; i < length; i++) {
         const randomIndex = randomString[i] % charsLength;
-        result += chars[randomIndex];
+        result += characters[randomIndex];
     }
     return result;    
 }
 
-MediaSourceHandle.exports = {generateRandomString, generateRandomHex, generateCustomString};
+module.exports = {generateRandomString, generateRandomHex, generateCustomString};
