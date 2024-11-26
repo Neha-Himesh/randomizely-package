@@ -36,7 +36,7 @@ A random string composed of the given characters.
 ___
 
 ## Usage Examples: ##
-`const { generateRandomString, generateRandomHex, generateCustomString } = require('random-string-generator');`
+`const { generateRandomString, generateRandomHex, generateCustomString } = require('randomizely');`
 
 Generate a 12-character alphanumeric string
 `console.log('Random Alphanumeric:', generateRandomString(12));`
