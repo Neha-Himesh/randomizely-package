@@ -5,6 +5,7 @@ function generateRandomString(length){
     const charsLength = chars.length;
     // Generate random bytes
     const randomBytes = crypto.randomBytes(length);
+    console.log(randomBytes);
     // Map bytes to characters from the allowed set
     let result = '';
     for (let i = 0; i < length; i++) {
